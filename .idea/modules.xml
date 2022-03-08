@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ARCore-Location-appoly.iml" filepath="$PROJECT_DIR$/ARCore-Location-appoly.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ARCore-Location.iml" filepath="$PROJECT_DIR$/.idea/modules/ARCore-Location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ARCore-Location.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ARCore-Location.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/arcore-location/ARCore-Location.arcore-location.iml" filepath="$PROJECT_DIR$/.idea/modules/arcore-location/ARCore-Location.arcore-location.iml" />
       <module fileurl="file://$PROJECT_DIR$/arcore-location/arcore-location.iml" filepath="$PROJECT_DIR$/arcore-location/arcore-location.iml" />
     </modules>
   </component>

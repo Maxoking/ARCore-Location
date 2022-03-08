@@ -6,8 +6,11 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+//import android.support.v4.app.ActivityCompat;
+//import android.support.v4.app.ActivityCompat;
+
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 public final class ARLocationPermissionHelper {
     private static final int PERMISSION_CODE = 0;
@@ -29,6 +32,8 @@ public final class ARLocationPermissionHelper {
     public static void requestPermission(Activity activity) {
         ActivityCompat.requestPermissions(activity, new String[]{CAMERA_PERMISSION, LOCATION_PERMISSION},
                 PERMISSION_CODE);
+
+
     }
 
     /** Check to see if we need to show the rationale for this permission. */
